@@ -27,21 +27,21 @@ $alphabets = {
   "..--" => "Z"
 }
 
-def decode_char (character) 
+def decode_char(character)
   return $alphabets[character]
 end
 
-def decode_word (word)
+def decode_word(word)
   decoder = ''
   character = word.split()
-  character.each {|c| decoder += decode_char(c)}
+  character.each { |c| decoder += decode_char(c) }
   return decoder
 end
 
-def decode_message (message)
+def decode_message(message)
   decoderMessage = ''
   words = message.split(/   /)
-  words.each {|c| decoderMessage += decode_word(c)+" "}
+  words.each { |c| decoderMessage += decode_word(c) + " " }
   return decoderMessage
 end
 
