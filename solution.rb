@@ -37,3 +37,14 @@ def decode_word (word)
   character.each {|c| decoder += decode_char(c)}
   return decoder
 end
+
+def decode_message (message)
+  decoderMessage = ''
+  words = message.split(/   /)
+  words.each {|c| decoderMessage += decode_word(c)+" "}
+  return decoderMessage
+end
+
+decode_message ("  .-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
+# output
+# "A BOX FULL OF RUBIES "
