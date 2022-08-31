@@ -2,71 +2,42 @@
 
 # Project Name
 
-> Description the project.
+> A simple project to decode a  given Morse message.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+- Ruby
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Elisha Tetteyfio**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [Elisha](https://github.com/elisha-tetteyfio)
+- Twitter: [@twitterhandle](https://twitter.com/AlYasa_Nii)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/elisha-tettteyfio)
 
-👤 **Author2**
+👤 **Henry Varflay Singbeh**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/henrycode460)
+- Twitter: [@twitterhandle](https://twitter.com/460code)
+
+👤 **Basir Mohammadi**
+
+- GitHub: [@githubhandle](https://github.com/Basir-Mohammadi)
+- Twitter: [@twitterhandle](https://twitter.com/basirahmad1312)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/basirmohammadi)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Elisha-Tetteyfio/morse-code/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
