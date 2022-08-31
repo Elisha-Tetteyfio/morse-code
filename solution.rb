@@ -28,12 +28,12 @@ $alphabets = {
 }
 
 def decode_char (character) 
-  puts $alphabets[character]
+  return $alphabets[character]
 end
 
 def decode_word (word)
   decoder = ''
   character = word.split()
-  character.each{ |c| decoder += decode_char[c] }
-  puts decoder
+  character.each {|c| decoder += decode_char(c)}
+  return decoder
 end
