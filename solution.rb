@@ -1,50 +1,50 @@
-$alphabets = {
-  ".-" => "A",
-  "-..." => "B",
-  "-.-." => "C",
-  "-.." => "D",
-  "." => "E",
-  "..-." => "F",
-  "--." => "G",
-  "...." => "H",
-  ".." => "I",
-  ".---" => "J",
-  "-.-" => "K",
-  ".-.." => "L",
-  "--" => "M",
-  "-." => "N",
-  "---" => "O",
-  ".--." => "P",
-  "--.-" => "Q",
-  ".-." => "R",
-  "..." => "S",
-  "-" => "T",
-  "..-" => "U",
-  "...-" => "V",
-  ".--" => "W",
-  "-..-" => "X",
-  "-.--" => "Y",
-  "..--" => "Z"
+@alphabets = {
+  '.-' => 'A',
+  '-...' => 'B',
+  '-.-.' => 'C',
+  '-..' => 'D',
+  '.' => 'E',
+  '..-.' => 'F',
+  '--.' => 'G',
+  '....' => 'H',
+  '..' => 'I',
+  '.---' => 'J',
+  '-.-' => 'K',
+  '.-..' => 'L',
+  '--' => 'M',
+  '-.' => 'N',
+  '---' => 'O',
+  '.--.' => 'P',
+  '--.-' => 'Q',
+  '.-.' => 'R',
+  '...' => 'S',
+  '-' => 'T',
+  '..-' => 'U',
+  '...-' => 'V',
+  '.--' => 'W',
+  '-..-' => 'X',
+  '-.--' => 'Y',
+  '..--' => 'Z'
 }
 
 def decode_char(character)
-  return $alphabets[character]
+  @alphabets[character]
 end
 
 def decode_word(word)
   decoder = ''
-  character = word.split()
+  character = word.split
   character.each { |c| decoder += decode_char(c) }
-  return decoder
+  decoder
 end
 
 def decode_message(message)
-  decoderMessage = ''
+  decoder_message = ''
   words = message.split(/   /)
-  words.each { |c| decoderMessage += decode_word(c) + " " }
-  return decoderMessage
+  words.each { |c| decoder_message += "#{decode_word(c)} " }
+  decoder_message
 end
 
-decode_message ("  .-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
+decode_message('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
 # output
-# "A BOX FULL OF RUBIES "
+# 'A BOX FULL OF RUBIES '
